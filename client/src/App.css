@@ -1,0 +1,156 @@
+.sitenav {
+
+    background-color: #1a1111;
+    min-height: 70px;
+    align-items: center;
+
+
+}
+
+.image-container {
+
+    width: 50%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.image-container img {
+
+    width: 100%;
+}
+
+.left-side-bar {
+
+    border-right: 1px solid #999090;
+    min-height: 100vh;
+}
+
+.right-feed {
+
+    padding-left: 3rem !important;
+}
+
+.ic-bosluk {
+
+    padding: 15px;
+}
+
+nav .nav-item {
+    margin: 7px;
+}
+
+nav a.active {
+
+    text-decoration: none;
+    color: white;
+}
+
+nav a.active::before {
+
+    content: "> ";
+    color: red;
+
+}
+
+
+.user-avatar-container {
+
+    width: 60%;
+    margin: auto;
+}
+
+.user-avatar-container img {
+
+    width: 100%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+}
+
+.tweetModel {
+
+    padding: 1rem;
+    border: 1px solid #e1e1e1;
+    border-radius: 8px;
+
+}
+
+
+.author-container {
+
+    display: flex;
+}
+
+.author-container .author-avatar {
+    width: 60px;
+}
+
+.author-container .author-username {
+
+    align-self: center;
+    padding-left: 11px;
+}
+
+
+.post-timespan {
+
+    align-self: center;
+    padding-left: 8px;
+    font-size: 13px;
+}
+
+.author-container .author-username a {
+
+    text-decoration: none;
+}
+
+.author-container .author-avatar img {
+
+    width: 100%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.card-body .user-post {
+
+    padding-left: 4rem;
+    margin-left: 7px;
+}
+
+
+ul.side-bar-links {
+
+    list-style: none;
+}
+
+
+ul.side-bar-links li {
+
+    margin-bottom: 10px;
+    font-size: larger;
+
+}
+
+
+ul.side-bar-links li a {
+
+    text-decoration: none;
+}
+
+.card_navigator a {
+
+    text-decoration: none;
+}
+
+.nav-user {
+
+    background-color: transparent !important;
+}
+
+.nav-user img {
+
+    width: 40px;
+    object-fit: contain;
+    margin-right: 10px;
+    border-radius: 50%;
+}
